@@ -1,10 +1,13 @@
-html {
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2, 100%);    
-    font-size: 14px; 
+body {
+    linear-gradient: (135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+h1 h2 h3 h4 {
+    font-family:
 }
 
 
-
+<<<<<<< HEAD
 @font-face {
     font-family: "Lato";
     src: url("/assets/font/lato.ttf");
@@ -14,4 +17,9 @@ header{
     height: 55vh;
     background-image: url('./assets/img/studentsbg.png') ; 
     background-attachment: fixed;
+=======
+header{
+    height: 55vh;
+background-image: image("studentsbg.png");
+>>>>>>> 88785cdc4fa2e4426c3161b404c5a6bfdca02ab6
 }
