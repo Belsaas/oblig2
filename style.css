@@ -45,7 +45,7 @@ header div{
 }
 
 header h1{
-    padding-top: 90px;
+    padding-top: 4rem;
 }
 header p{
     margin: 0 auto;
@@ -66,3 +66,22 @@ main {
 
 }
 
+footer{
+    background-color: #c5192d;
+    color:white;
+    margin: auto;
+    width: 84%;
+    height: 130px;
+}
+
+footer p{
+    margin: 0 auto;
+    text-align: center; 
+    vertical-align: bottom;
+    line-height: 24px;
+    padding-top: 2em;
+}
+
+a:link{
+    color: white;
+}
