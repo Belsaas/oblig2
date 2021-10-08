@@ -24,7 +24,7 @@ font-size: 1.2rem;
 }
 
 header{
-    height: 55vh;
+    height: 65vh;
     background-image: url("assets/img/studentsbg.png"); 
     background-attachment: fixed;
     margin: -8px;
@@ -39,7 +39,17 @@ header div{
     color:white;
     margin: auto;
     width: 83%;
-    position: relative; top: 200px;
+    height: 285px;
+    position: relative; top: 170px;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 90px;
+}
+header p{
+    margin: 0 auto;
+    text-align: center
 }
 
 
