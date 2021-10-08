@@ -9,3 +9,9 @@ html {
     font-family: "Lato";
     src: url("/assets/font/lato.ttf");
 }
+
+header{
+    height: 55vh;
+    background-image: url('./assets/img/studentsbg.png') ; 
+    background-attachment: fixed;
+}
