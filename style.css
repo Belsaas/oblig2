@@ -27,8 +27,14 @@ p {
 
 header{
     height: 55vh;
-    background-image: url('./assets/img/studentsbg.png'); 
+    background-image: url("assets/img/studentsbg.png"); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+main {
+    box-shadow: 10px;
+    box-shadow: darkgray;
+
 }
