@@ -1,12 +1,12 @@
 html{
-    font-family: "Lato", "sans-serif";
+    font-family: "Lato", sans-serif;
 src: url("assets/fonts/lato.ttf");
 background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 font-size: 14px;
 }
 
 h1 h2 h3 {
-    font-family: "Montserrat", "sans-serif";
+    font-family: "Montserrat", sans-serif;
     src: url("assets/fonts/Montserrat-Bold.ttf");
 }
 h1 {
@@ -29,11 +29,15 @@ header{
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: 100% 100%;
+=======
+    background-size:cover;
+    
+>>>>>>> 6bfaa67232fbed87f3c170a5560fa84b10efc7f7
 }
 
 main {
     box-shadow: 10px;
     box-shadow: darkgray;
-
 }
