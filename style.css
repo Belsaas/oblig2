@@ -7,7 +7,6 @@ h1 h2 h3 h4 {
 }
 
 
-<<<<<<< HEAD
 @font-face {
     font-family: "Lato";
     src: url("/assets/font/lato.ttf");
@@ -17,9 +16,4 @@ header{
     height: 55vh;
     background-image: url('./assets/img/studentsbg.png') ; 
     background-attachment: fixed;
-=======
-header{
-    height: 55vh;
-background-image: image("studentsbg.png");
->>>>>>> 88785cdc4fa2e4426c3161b404c5a6bfdca02ab6
 }
