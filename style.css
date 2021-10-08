@@ -34,10 +34,11 @@ header{
 
 main {
     box-shadow: 10px;
-    box-shadow: darkgray;
+    box-shadow: darkgrey;
     background-color: whitesmoke;
 }
 
 .intro-container::after{
     background-color: #c5192d;
+
 }
