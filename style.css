@@ -3,9 +3,23 @@ html {
     font-size: 14px; 
 }
 
+<<<<<<< Updated upstream
 
 
 @font-face {
     font-family: "Lato";
     src: url("/assets/font/lato.ttf");
+=======
+h1 h2 h3 h4 {
+    font-family: 
+
+}
+
+
+
+.header{
+    height: 55vh;
+background-image: image('.path/to/studentsbg.png');
+    
+>>>>>>> Stashed changes
 }
