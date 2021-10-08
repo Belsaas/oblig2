@@ -16,6 +16,11 @@ header{
     height: 55vh;
     background-image: url('./assets/img/studentsbg.png'); 
     background-attachment: fixed;
+<<<<<<< HEAD
     background-repeat: no-repeat;
     background-position: top;
+=======
+    background-position: center;
+    background-repeat: no-repeat;
+>>>>>>> 3d0d0de838ecb11ddcf7307971d933d012e27cec
 }
