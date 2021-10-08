@@ -38,6 +38,6 @@ main {
     background-color: whitesmoke;
 }
 
-.intro-container{
+.intro-container::after{
     background-color: #c5192d;
 }
