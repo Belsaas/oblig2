@@ -37,8 +37,9 @@ header{
 header div{
     background-color: #c5192d;
     color:white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    width: 83%;
+    position: relative; top: 200px;
 }
 
 
@@ -52,41 +53,5 @@ main {
     background-color: #c5192d;
     padding: 30px;
     max-width: 50%;
+
 }
-
-li {
-    padding-left: 1rem;
-    text-indent: -0.7rem;
-    list-style: none;
-}
-
-li:nth-child(3n+1)::before {
-    content: "\1F64C";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
-
-   li:nth-child(3n+2)::before {
-    content: "\1F3EB";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
-
-   
-   li:nth-child(3n+3)::before {
-    content: "\1F4DA";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
-
-.article {
-    border-style: solid;
-    border: 5px;
-    border-color: black;
-   }
