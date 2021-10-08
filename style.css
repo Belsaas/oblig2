@@ -36,4 +36,9 @@ header{
 main {
     box-shadow: 10px;
     box-shadow: darkgray;
+    background-color: whitesmoke;
+}
+
+.intro-container{
+    background-color: #c5192d;
 }
