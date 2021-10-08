@@ -1,25 +1,13 @@
-html {
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2, 100%);    
-    font-size: 14px; 
+body {
+    linear-gradient: (135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-<<<<<<< Updated upstream
-
-
-@font-face {
-    font-family: "Lato";
-    src: url("/assets/font/lato.ttf");
-=======
 h1 h2 h3 h4 {
-    font-family: 
-
+    font-family:
 }
 
 
-
-.header{
+header{
     height: 55vh;
-background-image: image('.path/to/studentsbg.png');
-    
->>>>>>> Stashed changes
+background-image: image("studentsbg.png");
 }
