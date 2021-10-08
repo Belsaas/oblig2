@@ -1,15 +1,26 @@
-body {
-    linear-gradient: (135deg, #f5f7fa 0%, #c3cfe2 100%);
+html{
+    font-family: "Lato", "sans-serif";
+src: url("assets/fonts/lato.ttf");
+background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+font-size: 14px;
 }
 
 h1 h2 h3 {
-    font-family: 
+    font-family: "Montserrat", "sans-serif";
+    src: url("assets/fonts/Montserrat-Bold.ttf");
+}
+h1 {
+    font-size: 4rem;
 }
 
+h2 {
+    font-size: 2.2rem;
+}
 
-@font-face {
-    font-family: "Lato";
-    src: url("/assets/font/lato.ttf");
+p {
+max-width: 70ch;
+line-height: 1.5;
+font-size: 1.2rem;
 }
 
 header{
