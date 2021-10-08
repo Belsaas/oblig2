@@ -33,8 +33,7 @@ header{
 }
 
 main {
-    box-shadow: 10px;
-    box-shadow: darkgrey;
+    box-shadow: 0px 0px 1px darkgrey;
     background-color: whitesmoke;
 }
 
