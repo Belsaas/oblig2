@@ -64,12 +64,14 @@ main {
 }
 
 
+#intro-container {
+    background-color:#c5192d;
 
+}
 
 #intro-container div:nth-child(1) {
-    background-color:#c5192d;
     padding: 0px;
-
+    width: 100%;
 }
 
 #intro-container div:nth-child(2) {
