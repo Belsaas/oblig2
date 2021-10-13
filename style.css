@@ -106,6 +106,7 @@ footer{
     background-color: #c5192d;
     color:white;
     margin: auto;
+    margin-bottom: -8px;
     width: 84%;
     height: 130px;
 }
@@ -118,19 +119,18 @@ footer p{
     padding-top: 2em;
 }
 
+.article {
+    max-width: 45%;  
+
+}
+
 img {
-    height: 350px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
 }
 
 a:link{
     color: white;
 }
 
-article{
-    
-    column-count: 2;
-    column-gap: 10%;
-    column-width: 45%;
-    padding: 30px
-}
+
