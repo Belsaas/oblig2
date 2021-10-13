@@ -65,8 +65,8 @@ main {
 
 
 #intro-container {
-    background-color:#c5192d;
-
+    
+    background: linear-gradient(90deg, #c5192d 50%, white 50%);
 }
 
 #intro-container div:nth-child(1) {
