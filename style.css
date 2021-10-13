@@ -2,7 +2,7 @@ html{
     font-family: "Lato", sans-serif;
 src: url("assets/fonts/lato.ttf");
 background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-font-size: 14px;
+font-size: 24px;
 }
 
 h1 h2 h3 {
@@ -23,8 +23,8 @@ line-height: 1.5;
 font-size: 1.2rem;
 }
 
-header{
-    height: 55vh;
+header {
+    height: 65vh;
     background-image: url("assets/img/studentsbg.png"); 
     background-attachment: fixed;
     margin: -8px;
@@ -46,6 +46,7 @@ main {
     box-shadow: 0px 0px 1px darkgrey;
     background-color: whitesmoke;
     margin: 100px;
+    display: block;
 }
 
 #intro-container {
@@ -53,6 +54,12 @@ main {
     padding: 30px;
     max-width: 50%;
 }
+
+
+.ul {
+    width: 50%; 
+}
+
 
 li {
     padding-left: 1rem;
@@ -86,7 +93,12 @@ li:nth-child(3n+1)::before {
    }
 
 .article {
-    border-style: solid;
-    border: 5px;
-    border-color: black;
-   }
+    max-width: 45%;  
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
