@@ -118,16 +118,19 @@ footer p{
     padding-top: 2em;
 }
 
-.article {
-    max-width: 45%;  
-
-}
-
 img {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
 }
 
 a:link{
     color: white;
+}
+
+article{
+    
+    column-count: 2;
+    column-gap: 10%;
+    column-width: 45%;
+    padding: 30px
 }
