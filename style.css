@@ -41,16 +41,18 @@ header div{
     width: 83%;
     height: 300px;
     position: relative; top: 170px;
-    text-align: center;
+    text-align:center;
 }
 
 header h1{
     padding-top: 2rem;
+    padding-bottom: 0;
 }
 
 header p{
     margin: 0 auto;
     text-align: center;
+    margin-top: -5%;
 }
 
 
@@ -121,7 +123,8 @@ footer p{
 
 img {
     height: 550px;
-    width: 600px;
+    width: 550px;
+   
 }
 
 a:link{
@@ -132,10 +135,10 @@ article{
     column-count: 2;
     column-gap: 10%;
     column-width: 45%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 
