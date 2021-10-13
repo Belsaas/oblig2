@@ -39,18 +39,17 @@ header div{
     color:white;
     margin: auto;
     width: 83%;
-    height: 285px;
+    height: 320px;
     position: relative; top: 170px;
     text-align: center;
 }
 
 header h1{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 header p{
     margin: 0 auto;
-    text-align: center
 }
 
 
