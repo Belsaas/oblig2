@@ -70,6 +70,31 @@ main {
     width: 50%; 
 }
 
+li:nth-child(3n+1)::before {
+    content: "\1F64C";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+   }
+
+   li:nth-child(3n+2)::before {
+    content: "\1F3EB";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+   }
+
+   
+   li:nth-child(3n+3)::before {
+    content: "\1F4DA";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+   }
+
 
 li {
     padding-left: 1rem;
