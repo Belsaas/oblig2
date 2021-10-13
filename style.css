@@ -37,8 +37,19 @@ header {
 header div{
     background-color: #c5192d;
     color:white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    width: 83%;
+    height: 285px;
+    position: relative; top: 170px;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 4rem;
+}
+header p{
+    margin: 0 auto;
+    text-align: center
 }
 
 
@@ -53,7 +64,6 @@ main {
     background-color: #c5192d;
     padding: 30px;
     max-width: 50%;
-}
 
 
 .ul {
@@ -67,30 +77,21 @@ li {
     list-style: none;
 }
 
-li:nth-child(3n+1)::before {
-    content: "\1F64C";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
+footer{
+    background-color: #c5192d;
+    color:white;
+    margin: auto;
+    width: 84%;
+    height: 130px;
+}
 
-   li:nth-child(3n+2)::before {
-    content: "\1F3EB";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
-
-   
-   li:nth-child(3n+3)::before {
-    content: "\1F4DA";
-    width: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-   }
+footer p{
+    margin: 0 auto;
+    text-align: center; 
+    vertical-align: bottom;
+    line-height: 24px;
+    padding-top: 2em;
+}
 
 .article {
     max-width: 45%;  
@@ -102,3 +103,6 @@ img {
     width: 200px;
 }
 
+a:link{
+    color: white;
+}
