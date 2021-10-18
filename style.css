@@ -142,16 +142,21 @@ footer{
     margin: auto;
     margin-bottom: -1%;
     width: 70%;
-    height: 100%;
+    height: 150%;
 }
 
 footer p{
-    margin: 0 auto;
+    margin: 1% auto;
     text-align: center; 
     vertical-align: bottom;
+<<<<<<< HEAD
     line-height: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
+=======
+    line-height: 150%;
+    padding-top: 2em;
+>>>>>>> 8ec902ca4ca1e7636174833f1ae780145358d015
 }
 
 .article {
