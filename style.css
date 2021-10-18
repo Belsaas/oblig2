@@ -1,4 +1,40 @@
 
+@media screen and (min-width: 960 px) and (max-width: 1280px){
+    body{
+        font-size: 24px;
+    }  
+    header{
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960 px){
+    body{
+        font-size: 16px;  
+    }
+    header{
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    body{
+        font-size: 14px;
+        max-width: 70ch;  
+    }
+    p {
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+}
+
 html{
     font-family: "Lato", sans-serif;
     src: url("assets/fonts/lato.ttf");
@@ -54,13 +90,13 @@ main {
 
 #intro-container {
     background-color: #c5192d;
-    padding: 30px;
+    padding: 5%;
     background: linear-gradient(90deg, #c5192d 50%, white 50%);
 }
 
 
 #intro-container div:nth-child(1) {
-    padding: 0px;
+    padding: 0%;
     width: 100%;
 }
 
@@ -104,7 +140,6 @@ footer{
     background-color: #c5192d;
     color:white;
     margin: auto;
-
     margin-bottom: -1%;
     width: 70%;
     height: 100%;
@@ -115,7 +150,8 @@ footer p{
     text-align: center; 
     vertical-align: bottom;
     line-height: 100%;
-    padding-top: 2em;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .article {
@@ -136,46 +172,10 @@ article{
     column-count: 2;
     column-gap: 10%;
     column-width: 45%;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 
-
-@media screen and (min-width: 960 px) and (max-width: 1280px){
-    body{
-        font-size: 24px;
-    }  
-    header{
-        height: 65vh;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 960 px){
-    body{
-        font-size: 16px;  
-    }
-    header{
-        height: 65vh;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 600px){
-    h1 {
-        font-size: 4rem;
-    }
-    
-    h2 {
-        font-size: 2.2rem;
-    }
-    body{
-        font-size: 14px;
-        max-width: 70ch;  
-    }
-    p {
-        line-height: 1.5;
-        font-size: 1.2rem;
-    }
-}
