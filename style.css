@@ -25,14 +25,14 @@ header div{
     background-color: #c5192d;
     color:white;
     margin: auto;
-    width: 70%;
-    height: 85%;
+    width: 68%;
+    height: 60%;
     position: relative; top: 50%;
     text-align:center;
 }
 
 header h1{
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 header p{
