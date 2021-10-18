@@ -14,7 +14,7 @@ header {
     height: 65vh;
     background-image: url("assets/img/studentsbg.png"); 
     background-attachment: fixed;
-    margin: -8px;
+    margin: -1%;
     margin-top: -10%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -26,9 +26,9 @@ header div{
     color:white;
     margin: auto;
     width: 70%;
-    height: 300px;
-    position: relative; top: 170px;
-    text-align: center;
+    height: 85%;
+    position: relative; top: 50%;
+    text-align:center;
 }
 
 header h1{
@@ -104,16 +104,17 @@ footer{
     background-color: #c5192d;
     color:white;
     margin: auto;
-    margin-bottom: -8px;
+
+    margin-bottom: -1%;
     width: 70%;
-    height: 130px;
+    height: 100%;
 }
 
 footer p{
     margin: 0 auto;
     text-align: center; 
     vertical-align: bottom;
-    line-height: 24px;
+    line-height: 100%;
     padding-top: 2em;
 }
 
