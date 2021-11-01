@@ -69,7 +69,8 @@
   
   header > div p {
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 0 auto;
   }
   
   main {
@@ -84,11 +85,9 @@
     background-color: #c5192d;
     padding: 30px;
   }
-  
-  .ul {
-    width: 50%;
-  }
-  
+
+
+
   li:nth-child(3n + 1)::before {
     content: '\1F64C';
     width: 1rem;
@@ -202,16 +201,58 @@
     html {
       font-size: 16px;
     }
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        width: 85%;
+        margin: 12% auto;
+      }
+
     header {
       height: 65vh;
     }
-  }
-  
-  /**
-  * Extre small mobile styles
-  */
-  @media screen and (max-width: 400px) {
-    header {
-      margin-bottom: 8rem;
+
+    header > div {
+        background-color: #c5192d;
+        color: white;
+        margin: auto;
+        width: 85%;
+        min-height: 55%;
+        position: relative;
+        top: 50%;
+    }      
+
+    footer {
+        width: 85%;
+      }
+
+    article{
+    column-count: 2;
+      column-gap: 10%;
+      column-width: 45%;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      min-height: 17rem;
+      border: 1px solid #ddd;
     }
-  }
+
+    #intro-container {
+        background: linear-gradient(90deg, #c5192d 50%, white 50%);
+      }
+
+      p {
+        font-size: 1rem;
+      }
+      h2{
+          font-size: 1.8rem;
+      }
+
+
+
+}
+  
